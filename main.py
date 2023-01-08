@@ -19,7 +19,7 @@ def query(query):
 if __name__=="__main__":
     welcome()
     while True:
-        input_value = int(input('1 to read a book,\n2 to query\n3 to exit\n'))
+        input_value = int(input('\n\nSelect an option please:\n1 to read a book,\n2 to query\n3 to exit\n'))
         if input_value == 1:
             input_query = input("Enter the location of your book: ")
             do_processing(input_query)

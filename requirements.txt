@@ -1,0 +1,6 @@
+wheel
+numpy
+cmake
+farm-haystack
+pypdf 
+openai

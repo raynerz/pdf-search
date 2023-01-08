@@ -1,5 +1,6 @@
 import openai
 import os
+import qa_pipeline
 
 openai.api_key = os.environ.get("OPEN_AI_KEY")
 
@@ -24,7 +25,8 @@ def construct_prompt(haystack_prediction):
 
   return header + "\n\nContext: " + context + "\nSource: " + source + "\nPage: " + str(page) + "\n\nThe question is: " + haystack_prediction['query']
 
-def answer_query_with_context(haystack_prediction) -> str:
+def answer_query_with_context(query, pipeline) -> str:
+    haystack_prediction = qa_pipeline.query(query, pipeline)
     prompt = construct_prompt(haystack_prediction)
 
     print(prompt)

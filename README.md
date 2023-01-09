@@ -25,7 +25,7 @@ $ python3 main.py
 You should receive the following prompt
 
 ```
-Welcome to your source of infinite knowledge
+$ Welcome to your source of infinite knowledge
 
 
 Select an option please:

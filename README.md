@@ -51,7 +51,7 @@ $ Enter your query: <your query here>
 
 - No error handling, if an error occurs, you just need to run the program again and repeat the steps
 - Your pdf's need to have a table of contents and being subdivided by chapters.
-- The `preprocess.py` script divides the books by chapters located in the [PDF's xref table](https://pypdf2.readthedocs.io/en/latest/dev/pdf-format.html) if your chapters are longer than 4096 [open api tokens](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) or about 300 words you will get the following error
+- The `preprocess.py` script divides the books by chapters located in the [PDF's xref table](https://pypdf2.readthedocs.io/en/latest/dev/pdf-format.html) if your chapters are longer than 4096 [open api tokens](https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them) or about 3000 words you will get the following error
 
 ```
 $ openai.error.InvalidRequestError: This model's maximum context length is 4097 tokens, however you requested 6711 tokens (6211 in your prompt; 500 for the completion). Please reduce your prompt; or completion length.

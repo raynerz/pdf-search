@@ -59,7 +59,7 @@ $ openai.error.InvalidRequestError: This model's maximum context length is 4097 
 ```
 
 In that case you have two options
-1. You can choose a book/pdf with shorter chapters for example (Kimball's data warehouse toolkit)[https://www.amazon.com/Data-Warehouse-Toolkit-Definitive-Dimensional/dp/1118530802]
+1. You can choose a book/pdf with shorter chapters for example [Kimball's data warehouse toolkit](https://www.amazon.com/Data-Warehouse-Toolkit-Definitive-Dimensional/dp/1118530802)
 2. You can modify `preprocess.py` to account for shorter amount of text when splitting the chapters. Issuing a PR would be cool :P
 
 

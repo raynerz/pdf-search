@@ -1,6 +1,6 @@
 # PDF - Search
 
-## Requirements
+## Requirements
 
 1. In a fresh virtual environment run
 
@@ -15,7 +15,7 @@ $ pip3 install -r requirements.txt
 $ export OPEN_AI_KEY="<your openai api token>"
 ```
 
-## How to use
+## How to use
 
 1. In the project root folder run the following command
 
